@@ -1,7 +1,9 @@
 #include "main.h"
 
+pros::ADIPotentiometer anglerPot('A');
+
 void setAngler(int power) {
-angler = power;
+    angler = power;
 }
 
 void setAnglerMotor() {
